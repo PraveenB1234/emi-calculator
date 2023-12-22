@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="emi.css">
+    <title>EMI Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>EMI Calculator</h1>
+        <div class="box">
+            <p>Amount:<input type="number" id="amount" onchange="calculate()"></p>
+            <p>Months:<input type="number" id="months" onchange="calculate()"></p>
+            <p>Interest:<input type="number" id="interest" onchange="calculate()"></p>
+        </div>
+        <div class="btn">
+            <button id="total">Convert</button>
+        </div>
+    </div>
+<script src="emi.js"></script>
+</body>
+</html>
